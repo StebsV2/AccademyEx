@@ -1,0 +1,66 @@
+nav{
+	padding: 12px;
+	background-color: #3399ff;
+	display: flex;
+	justify-content: space-between;
+
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li {
+	padding: 12px;
+	display: inline;
+}
+footer{
+	padding: 8px;
+	background-color: #3399ff;
+	display: flex;
+	justify-content: space-between;
+}
+.copyright{
+	align-self: flex-end;
+}
+footer ul{
+
+	list-style-type: none;
+	align-self: flex-end;
+}
+footer ul li{
+	display: inline;
+	padding: 10dp;
+}
+
+.icona_home{
+	width: 30px;
+	height: 30px;
+	align-self: center;
+
+}
+.home{
+	background-color: yellow;
+	display: flex;
+}
+.articoloHome{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 24px;
+}
+.listArt{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.articolo{
+	padding: 28px;
+	text-align: center;
+}
+.articoloHome{
+	text-align: center;
+}
+.imgHome{
+	width: 400px;
+	height: 200px;
+}
